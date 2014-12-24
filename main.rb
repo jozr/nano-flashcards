@@ -5,5 +5,5 @@ require 'json'
 set :database, 'postgres://localhost/nano_flashcards'
 
 get '/' do
-  'Hello Universe!'
+  erb :index
 end
