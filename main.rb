@@ -1,6 +1,8 @@
 require 'sinatra'
 require 'sinatra/activerecord'
-require 'json'
+require 'carrierwave/orm/activerecord'
+
+Dir.glob('./lib/*.rb').each { |f| require f }
 
 set :database, 'postgres://localhost/nano_flashcards'
 
