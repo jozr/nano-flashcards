@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'sinatra/activerecord'
-require 'carrierwave/orm/activerecord'
 
 Dir.glob('./lib/*.rb').each { |f| require f }
 
