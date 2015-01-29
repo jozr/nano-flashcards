@@ -1,5 +1,6 @@
 require './main'
 require 'shoulda-matchers'
-require 'capybara/rspec'
+require 'rspec'
 
-Capybara.app = Sinatra::Application
+RSpec.configure do |config|
+end
